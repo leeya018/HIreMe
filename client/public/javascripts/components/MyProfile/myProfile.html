@@ -1,0 +1,38 @@
+<div id="myProfile">
+    <div class="profileDetails">
+        <div>
+            <p>first name :</p>
+            <input type="text" ng-model="user.firstName" autofocus>
+        </div>
+        <div>
+            <p>E-mail :</p>
+            <input type="text" ng-model="user.email">
+        </div>
+        <div>
+            <p>description :</p>
+            <input type="text" ng-model="user.description">
+        </div>
+        <div>
+            <p>user name :</p>
+            <input type="text" ng-model="user.userName">
+        </div>
+        <div>
+            <p>location :</p>
+            <input type="text" id="address" ng-model="user.locationName" placeholder="location">
+        </div>
+        <div>
+            <p>pass :</p>
+            <input type="text" ng-model="user.pass">
+        </div>
+    </div>
+    <div class="skills">
+        <h4>Skills:</h4>
+        <select multiple ng-init="vm.getSkills()" ng-model="selectedSkill" ng-selected="Angular" ng-options="skill as skill.skillName for skill in vm.skills">
+        </select>
+        <button ng-click="vm.addSkillsToTextArea(selectedSkill)">add skill</button>
+        <textarea ng-disabled="true" id="areaSkills" rows="10" cols="10"></textarea>
+        <button ng-click="vm.updateDetails()">Update Details</button>
+        <h1>{{updateMsg}}</h1>
+    </div>
+
+</div>

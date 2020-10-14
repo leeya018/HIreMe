@@ -1,0 +1,41 @@
+#job {
+  padding: 1px;
+}
+
+.jobBut {
+  display: flex;
+  justify-content: space-between;
+}
+#jobTitle > h2 {
+  margin: 0;
+}
+.jobBut > button {
+  align-self: self-end;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  height: 52px;
+  font-size: 19px;
+  border-radius: 10px;
+}
+
+button:hover {
+  color: black;
+}
+
+#applied {
+  color: rgb(20.5%, 33.3%, 16.5%);
+  font-size: 26px;
+  width: 16%;
+  padding: 1%;
+  font-weight: bold;
+}
+
+#jobTitle {
+  border: 3px solid black;
+  padding: 13px;
+}
+
+#job:hover {
+  background-color: rgba(75.3%, 75.3%, 75.3%, 0.46);
+}

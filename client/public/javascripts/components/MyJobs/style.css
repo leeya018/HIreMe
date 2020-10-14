@@ -1,0 +1,26 @@
+#jobsData {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto;
+  grid-template-areas: 'jobs jobDetails';
+}
+#map1 {
+  width: 400px;
+  height: 400px;
+}
+
+#jobs {
+  grid-area: jobs;
+}
+
+#jobDetailsContent {
+  top: 15vw;
+  position: sticky;
+}
+
+#pubJobRef {
+    position: relative;
+    top: 2em;
+    padding-left: 1em;
+    font-size: 2.2em;
+}

@@ -1,0 +1,27 @@
+#myProfile {
+  padding-top: 4em;
+  font-size: 2.1em;
+  padding-left: 4%;
+}
+
+#myProfile input {
+  border-radius: 10px;
+  height: 2em;
+}
+#myProfile p {
+  font-size: 28px;
+  margin: 0;
+  width: 5em;
+}
+
+.profileDetails > div {
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+  width: 9em;
+}
+
+#myProfile h4 {
+  margin: 0;
+  font-size: 29px;
+}
